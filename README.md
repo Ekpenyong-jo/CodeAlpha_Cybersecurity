@@ -12,5 +12,4 @@ Task 4 (Network Intrusion Detection System using Wazuh and Suricata).
 
 ### Network Sniffer Running and Packet Capture
 
-![Network Sniffer Running and Packet Capture] 
-(Screenshots/packet_capture.png)
+![Network Sniffer Running and Packet Capture](Screenshots/packet_capture.png)
