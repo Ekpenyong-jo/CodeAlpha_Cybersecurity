@@ -8,8 +8,8 @@ Task 4 (Network Intrusion Detection System using Wazuh and Suricata).
 
 ### Python Source Code
 
-![Python Source Code](./Screenshots/sniffer_code.PNG)
+![Python Source Code](Screenshots/sniffer_code.PNG)
 
 ### Network Sniffer Running and Packet Capture
 
-![Network Sniffer Running and Packet Capture](./Screenshots/packet_capture.PNG)
+![Network Sniffer Running and Packet Capture](Screenshots/packet_capture.PNG)
