@@ -103,6 +103,16 @@ Task2_Phishing_Awareness/
      phishing_awareness.html
      Screenshots/
 
+## Screenshots
+
+### Phishing Awareness Training
+
+![Phishing Awareness Training](Screenshots/phishing_training.png)
+
+### Interactive Quiz
+
+![Interactive Quiz](Screenshots/phishing_quiz.png)
+
 ## Conclusion
 
 This project provides practical phishing awareness training by explaining common phishing techniques, warning signs, social engineering methods, and defensive practices. The interactive quiz reinforces the concepts and helps users apply what they have learned.
