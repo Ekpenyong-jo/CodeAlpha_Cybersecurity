@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Awareness Training</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #f4f7fb;
+      color: #222;
+    }
+    header {
+      background: #17365d;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    }
+    h2 { color: #17365d; }
+    .warning {
+      background: #fff4d6;
+      border-left: 5px solid #e0a100;
+      padding: 15px;
+    }
+    .danger {
+      background: #ffe5e5;
+      border-left: 5px solid #c62828;
+      padding: 15px;
+    }
+    li { margin-bottom: 8px; }
+    .question {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f7f9fc;
+      border-radius: 8px;
+    }
+    button {
+      background: #17365d;
+      color: white;
+      border: 0;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover { opacity: .9; }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Phishing Awareness Training</h1>
+  <p>Learn how to recognize, avoid and report phishing attacks.</p>
+</header>
+
+<main>
+
+<section>
+  <h2>What is Phishing?</h2>
+  <p>
+    Phishing is a cyberattack in which an attacker pretends to be a trusted
+    person or organization to trick a victim into revealing sensitive
+    information, opening a malicious attachment, or clicking a harmful link.
+  </p>
+</section>
+
+<section>
+  <h2>Common Warning Signs of Phishing</h2>
+  <ul>
+    <li>Urgent or threatening messages that pressure you to act immediately.</li>
+    <li>Unexpected requests for passwords, payment details or personal information.</li>
+    <li>Suspicious sender addresses or domains that imitate legitimate organizations.</li>
+    <li>Links whose destination does not match the organization they claim to represent.</li>
+    <li>Unexpected attachments or unusual file types.</li>
+    <li>Spelling, grammar or formatting mistakes that seem unusual for the sender.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How to Recognize Fake Websites</h2>
+  <div class="warning">
+    <strong>Check before you trust:</strong>
+    <ul>
+      <li>Inspect the website address carefully.</li>
+      <li>Look for misspelled or misleading domain names.</li>
+      <li>Do not rely only on the padlock icon as proof that a site is legitimate.</li>
+      <li>For banking or important accounts, navigate to the official website yourself instead of following an unexpected link.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Social Engineering Tactics</h2>
+  <p>Attackers may use psychological pressure to influence their victims.</p>
+  <ul>
+    <li><strong>Urgency:</strong> “Act now or your account will be closed.”</li>
+    <li><strong>Authority:</strong> Pretending to be a manager, bank or government agency.</li>
+    <li><strong>Fear:</strong> Threatening consequences if the victim does not respond.</li>
+    <li><strong>Curiosity:</strong> Using surprising messages or attachments to encourage a click.</li>
+    <li><strong>Reward:</strong> Promising prizes, money or other benefits.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Best Practices</h2>
+  <ul>
+    <li>Think before clicking links or opening unexpected attachments.</li>
+    <li>Verify unusual requests through a separate trusted communication channel.</li>
+    <li>Use strong, unique passwords and enable multi-factor authentication.</li>
+    <li>Keep operating systems, browsers and security software updated.</li>
+    <li>Report suspicious messages to your organization or email provider.</li>
+    <li>Never share passwords or verification codes through unexpected messages.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Interactive Quiz</h2>
+
+  <div class="question">
+    <p><strong>1. Which is a common sign of a phishing email?</strong></p>
+    <label><input type="radio" name="q1" value="a"> A familiar company logo</label><br>
+    <label><input type="radio" name="q1" value="b"> An urgent request asking you to click a suspicious link</label><br>
+    <label><input type="radio" name="q1" value="c"> A normal newsletter you expected</label>
+  </div>
+
+  <div class="question">
+    <p><strong>2. What should you do with a suspicious link?</strong></p>
+    <label><input type="radio" name="q2" value="a"> Click it quickly before it expires</label><br>
+    <label><input type="radio" name="q2" value="b"> Forward it to everyone</label><br>
+    <label><input type="radio" name="q2" value="c"> Avoid clicking it and verify the sender independently</label>
+  </div>
+
+  <div class="question">
+    <p><strong>3. Which action improves account security?</strong></p>
+    <label><input type="radio" name="q3" value="a"> Reusing one password everywhere</label><br>
+    <label><input type="radio" name="q3" value="b"> Enabling multi-factor authentication</label><br>
+    <label><input type="radio" name="q3" value="c"> Sharing verification codes</label>
+  </div>
+
+  <button onclick="checkQuiz()">Submit Quiz</button>
+  <div id="result"></div>
+</section>
+
+<section>
+  <h2>Conclusion</h2>
+  <p>
+    Phishing awareness is an important part of cybersecurity. By recognizing
+    suspicious messages, checking links carefully, understanding social
+    engineering tactics and following safe security practices, users can
+    significantly reduce the risk of becoming victims of phishing attacks.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>CodeAlpha Cyber Security Internship — Task 2</p>
+  <p>Author: Ekpenyong Peace Inemesit</p>
+</footer>
+
+<script>
+function checkQuiz() {
+  const answers = { q1: "b", q2: "c", q3: "b" };
+  let score = 0;
+
+  for (const q in answers) {
+    const selected = document.querySelector('input[name="' + q + '"]:checked');
+    if (selected && selected.value === answers[q]) score++;
+  }
+
+  document.getElementById("result").textContent =
+    "You scored " + score + " out of 3.";
+}
+</script>
+
+</body>
+</html>
