@@ -107,11 +107,11 @@ Task2_Phishing_Awareness/
 
 ### Phishing Awareness Training
 
-![Phishing Awareness Training](Screenshots/phishing_training.png)
+![Phishing Awareness Training](Screenshots/phishing_training.PNG)
 
 ### Interactive Quiz
 
-![Interactive Quiz](Screenshots/phishing_quiz.png)
+![Interactive Quiz](Screenshots/phishing_quiz.PNG)
 
 ## Conclusion
 
