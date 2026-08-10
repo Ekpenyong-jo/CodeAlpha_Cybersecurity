@@ -40,6 +40,7 @@ bash
 sudo suricata -T -c /etc/suricata/suricata.yaml
 
 ### Screenshot
+
 ![Suricata Configuration Test](Screenshots/suricata_config_test.PNG)
 
 2. Suricata Rules
@@ -50,7 +51,8 @@ sudo suricata-update
 
 The update successfully loaded more than 68,000 rules.
 
-### Screenshoot
+### Screenshot
+
 ![Suricata Rules Update](Screenshots/suricata_rules_update.PNG)
 
 
@@ -70,7 +72,8 @@ During testing, Suricata generated an alert identifying suspicious network activ
 The alert was recorded in the Suricata eve.json log.
 
 ### Screenshot
-![Suricata Alert Detection](Screenshots/suricata_alert_detection.PNG
+
+![Suricata Alert Detection](Screenshots/suricata_alert_detection.PNG)
 
 
 5. Wazuh Integration 
@@ -82,7 +85,8 @@ The Ubuntu machine was enrolled as CodeAlpha agent and successfully connected to
 The CodeAlpha agent was confirmed as Active in the Wazuh dashboard.
 
 ### Screenshot
-![Wazuh CodeAlpha Active](Screenshoots/wazuh_codealpha_active.PNG)
+
+![Wazuh CodeAlpha Active](Screenshots/wazuh_codealpha_active.PNG)
 
 
 6. Results
