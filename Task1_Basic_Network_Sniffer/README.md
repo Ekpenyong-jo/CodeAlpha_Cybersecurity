@@ -125,7 +125,7 @@ Through this project, I gained practical experience in:
 
 ### Python Source Code
 
-![Python Source Code[(Screenshots/sniffer_code.PNG)
+![Python Source Code](Screenshots/sniffer_code.PNG)
 
 ### Captured Network Packets
 
