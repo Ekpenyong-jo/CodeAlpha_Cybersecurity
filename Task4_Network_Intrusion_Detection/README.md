@@ -3,31 +3,20 @@
 ## Project Overview
 
 This project demonstrates the setup and use of a Network Intrusion Detection System (NIDS) using Suricata to monitor network traffic and detect suspicious or potentially malicious activity.
-
-The project provides pratical experience in network security monitoring, intrusion detection,security rules, alert generation, log analysis, and incident response.
+thfyThe project provides pratical experience in network security monitoring, intrusion detection,security rules, alert generation, log analysis, and incident response.
 
 ## Objectives
 
-The main objective of this project are to:
+The objective of this task was to configure and demonstrate a Network Intrusion Detection System (NIDS) using Suricata and Wazuh. The system was used to monitor network traffic,identify suspicious activity, generate security alerts,and provide centralized monitoring.
 
-- Set up a network-based intrusion detection system using suricata.
-- Configure and test suricata detection rules.
-- Monitor network traffic for suspicious activity.
-- Generate and analyze security alerts.
-- Examine suricata event logs.
-- Integrate security monitoring with Wazuh where applicable.
-- Demonstrate appropriate response machanisms for detected threats.
-- Document the complete implementation and findings.
-
-## Tools and Technologies
+## Tools Used
 
 - Ubuntu Linux
 - Suricata IDS
 - Wazuh
-- Kali Linuxs
-- Nmap
+- Kali Linux
 - VirtualBox
-- Network monitoring and log analysis tools
+- Linux networking tools
 
 ## Network Configuration
 
@@ -39,61 +28,71 @@ The Suricata IDS is configured on an Ubuntu viral machine.
 
 ## Implementation
 
-### 1. Suricata installation and Verification
+## 1. Suricata Configuration
 
-Suricata was installed on the Ubuntu system and verified to ensure that the service was running correctly.
+Suricata was installed and configured on the  Ubuntu machine.
 
-### 2. Network Interface Configuration
+The network interface monitored by Suricata was:
 
-Suricata is configured to monitor the active network interface and inspect network traffic for suspicious activity.
+`enp0s3`
 
-### 3. Detection Rules
+The Suricata configuration was tested using:
 
-Suricata rules are used to identify suspicious network behaviour and generate alerts when matching traffic is detected.
+```bash
+sudo suricata -T -c /etc/suricata/suricata.yaml
 
-### 4. Network Traffic Monitoring
 
-Controlled network traffic is generated and monitored to verify that suricata can detect and record relevant network events.
+## 2. Suricata Rules
 
-### 5. Alert and Log Analysis
+Suricata rules were update using:
 
-Suricata logs are examined to identify detected events, including network flows, protocols, source addresses, destination addresses, and alert information.
+sudo suricata-update
 
-### 6. Wazuh Intergration
+The update successfully loaded more than 68,000 rules.
 
-Where applicable, Suricata security events are forwarded to Wazuh for centeralized monitoring and visualization.
 
-### Testing
+## 3. Network Traffic Monitoring
 
-Controlled network-security tests are performed to verify the functionality of the intrusion detection system.
+Suricata was configured to monitor network traffic and record events in:
 
-Testing may include:
+/var/log/suricata/eve.json
 
-- Network connectivity testing
-- Port scanning in a controlled lab environment
-- Detection rule testing
-- Suricata alert verfication
-- Log analysis
-- Wazuh event monitoring
+The logs contained flow, statistics, and alert events.
 
-  
-## Screenshots
 
-Screenshots documenting the implementation and testing process will be added to the 'Screenshots' folder.
+## 4.Intrusion Detection Alert 
 
-## Findings 
+During testing, Suricata generated an alert identifying suspicious network activity.
 
-The project demonstrates how a network intrusion detection system can monitor network activity and identify potentially suspicious behavior.
+The alert was recorded in the Suricata eve.json log.
 
-The generated alerts and logs provide useful information for security monitoring and incident investigation.
 
-## Response Mechanism
+## 5. Wazuh Integration 
 
-when suspicious activity is detected, the event can be investigated using the available logs and security monitoring tools. Appropriate response actions may include identifying the source of the activity, reviewing affected systems, blocking malicious traffic where appropriate, and documenting the incident.
+Wazuh was used for centralized security monitoring.
+
+The Ubuntu machine was enrolled as CodeAlpha agent and successfully connected to the Wazuh manager.
+
+The CodeAlpha agent was confirmed as Active in the Wazuh dashboard.
+
+
+### 6. Results
+
+The completed setup successfully demonstrated:
+
+. Network traffic monitoring using Suricata
+. Suricata rule management and updates.
+. Detection and logging of network security events.
+. Generation of intrusion detection alerts.
+. Integration of Suricata logs with Wazuh.
+. Centralized monitoring through the Wazuh dashboard.
+
 
 ## Conclusion
 
-This project provided pratical experience in deploying and operating a network intrusion detection system using Suricata. It also demonstrated the importance of network monitoring, detection rules, security alerts, log analysis,and incident response in cybersecurity.
+This task provided pratical experience in deploying and operating a network intrusion detection system. Suricata was used to monitor network traffic and identify suspicious activity, while Wazuh provided centralized security monitoring and visibility.
+
+The exercise improved my understanding of network monitoring, IDS alerts, security event analysis, and the integration of security tools within a cybersecurity environment.
 
 ## Author
 
