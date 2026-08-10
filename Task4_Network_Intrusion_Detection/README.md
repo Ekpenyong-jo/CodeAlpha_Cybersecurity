@@ -41,7 +41,7 @@ sudo suricata -T -c /etc/suricata/suricata.yaml
 
 ### Screenshot
 
-![Suricata Configuration Test](Screenshots/suricata_config_test.PNG)
+![Suricata Configuration Test](Screenshots/suricata_config_test.png)
 
 2. Suricata Rules
 
