@@ -121,6 +121,17 @@ Through this project, I gained practical experience in:
  - Basic cybersecurity monitoring
  - Github project documentation
 
+## Screenshots
+
+### Python Source Code
+
+![Python Source Code[(Screenshots/sniffer_code.PNG)
+
+### Captured Network Packets
+
+![Captured Packets](Screenshots/packet_capture.PNG)
+
+
 ## Conclusion
 
 This project provided hands-on experience in developing a basic network packet sniffer using python. It improved my understanding of network communication, packet structures, and traffic analysis. The Knowledge gained from this project forms a strong foundation for more advanced cybersecurity topics such as intrusion detection, threat anaysis, and network forensics.
