@@ -28,7 +28,7 @@ The Suricata IDS is configured on an Ubuntu viral machine.
 
 ## Implementation
 
-### 1. Suricata Configuration
+## 1. Suricata Configuration
 
 Suricata was installed and configured on the  Ubuntu machine.
 
@@ -41,8 +41,10 @@ The Suricata configuration was tested using:
 ```bash
 sudo suricata -T -c /etc/suricata/suricata.yaml
 
+### Screenshots
+![Suricata Configuration Test](Screenshots/suricata_config_test.PNG)
 
-### 2. Suricata Rules
+2. Suricata Rules
 
 Suricata rules were update using:
 
@@ -50,8 +52,11 @@ sudo suricata-update
 
 The update successfully loaded more than 68,000 rules.
 
+### Screenshoots
+![Suricata Rules Update](Screenshots/suricata_rules_update.PNG)
 
-### 3. Network Traffic Monitoring
+
+3. Network Traffic Monitoring
 
 Suricata was configured to monitor network traffic and record events in:
 
@@ -60,14 +65,18 @@ Suricata was configured to monitor network traffic and record events in:
 The logs contained flow, statistics, and alert events.
 
 
-### 4.Intrusion Detection Alert 
+4.Intrusion Detection Alert 
 
 During testing, Suricata generated an alert identifying suspicious network activity.
 
 The alert was recorded in the Suricata eve.json log.
 
+### Screenshots
 
-### 5. Wazuh Integration 
+![Suricata Alert Detection](Screenshots/suricata_alert_detection.PNG
+
+
+5. Wazuh Integration 
 
 Wazuh was used for centralized security monitoring.
 
@@ -75,8 +84,12 @@ The Ubuntu machine was enrolled as CodeAlpha agent and successfully connected to
 
 The CodeAlpha agent was confirmed as Active in the Wazuh dashboard.
 
+### Screenshots
 
-### 6. Results
+![Wazuh CodeAlpha Active](Screenshoots/wazuh_codealpha_active.PNG)
+
+
+6. Results
 
 The completed setup successfully demonstrated:
 
@@ -88,7 +101,7 @@ The completed setup successfully demonstrated:
 . Centralized monitoring through the Wazuh dashboard.
 
 
-## Conclusion
+7. Conclusion
 
 This task provided pratical experience in deploying and operating a network intrusion detection system. Suricata was used to monitor network traffic and identify suspicious activity, while Wazuh provided centralized security monitoring and visibility.
 
