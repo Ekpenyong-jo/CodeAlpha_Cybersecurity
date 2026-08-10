@@ -113,4 +113,4 @@ Ekpenyong Peace Inemesit
 
 ## Intership
 
-CodeAlpha Cyber Security internship
+CodeAlpha CyberSecurity internship
