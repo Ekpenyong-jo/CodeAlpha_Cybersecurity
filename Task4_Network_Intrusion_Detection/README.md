@@ -28,7 +28,7 @@ The Suricata IDS is configured on an Ubuntu viral machine.
 
 ## Implementation
 
-## 1. Suricata Configuration
+### 1. Suricata Configuration
 
 Suricata was installed and configured on the  Ubuntu machine.
 
@@ -42,7 +42,7 @@ The Suricata configuration was tested using:
 sudo suricata -T -c /etc/suricata/suricata.yaml
 
 
-## 2. Suricata Rules
+### 2. Suricata Rules
 
 Suricata rules were update using:
 
@@ -51,7 +51,7 @@ sudo suricata-update
 The update successfully loaded more than 68,000 rules.
 
 
-## 3. Network Traffic Monitoring
+### 3. Network Traffic Monitoring
 
 Suricata was configured to monitor network traffic and record events in:
 
@@ -60,14 +60,14 @@ Suricata was configured to monitor network traffic and record events in:
 The logs contained flow, statistics, and alert events.
 
 
-## 4.Intrusion Detection Alert 
+### 4.Intrusion Detection Alert 
 
 During testing, Suricata generated an alert identifying suspicious network activity.
 
 The alert was recorded in the Suricata eve.json log.
 
 
-## 5. Wazuh Integration 
+### 5. Wazuh Integration 
 
 Wazuh was used for centralized security monitoring.
 
