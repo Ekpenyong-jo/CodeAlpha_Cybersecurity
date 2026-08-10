@@ -26,8 +26,6 @@ The Suricata IDS is configured on an Ubuntu viral machine.
 - **Network Interface:** enp0s3
 - **IP Adress:** Private lab network address
 
-## Implementation
-
 ## 1. Suricata Configuration
 
 Suricata was installed and configured on the  Ubuntu machine.
