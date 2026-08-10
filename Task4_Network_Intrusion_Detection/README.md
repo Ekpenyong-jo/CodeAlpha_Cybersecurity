@@ -34,11 +34,11 @@ Suricata was installed and configured on the  Ubuntu machine.
 
 The network interface monitored by Suricata was:
 
-`enp0s3`
+enp0s3
 
 The Suricata configuration was tested using:
 
-```bash
+bash
 sudo suricata -T -c /etc/suricata/suricata.yaml
 
 ### Screenshots
