@@ -9,6 +9,11 @@ thfyThe project provides pratical experience in network security monitoring, int
 
 The objective of this task was to configure and demonstrate a Network Intrusion Detection System (NIDS) using Suricata and Wazuh. The system was used to monitor network traffic,identify suspicious activity, generate security alerts,and provide centralized monitoring.
 
+
+## Intrusion Detection Mechanism
+
+Suricata IDS was used as the primary intrusion detection mechanism. It monitored network traffic on the Ubuntu system using configured detection rules. When network activity matched a rule, Suricata generated a security alert and recorded the event in the 'eve.json' log file located at '/var/log/suricata/eve.json'.
+
 ## Tools Used
 
 - Ubuntu Linux
@@ -65,11 +70,11 @@ Suricata was configured to monitor network traffic and record events in:
 The logs contained flow, statistics, and alert events.
 
 
-4.Intrusion Detection Alert 
+ 4.Suricata Alert Detection 
 
-During testing, Suricata generated an alert identifying suspicious network activity.
+ During testing, Suricata successfully detected suspicious network activity and generated an alert.
 
-The alert was recorded in the Suricata eve.json log.
+  The alert was recorded in the 'eve.json' log file.
 
 ### Screenshot
 
@@ -78,11 +83,11 @@ The alert was recorded in the Suricata eve.json log.
 
 5. Wazuh Integration 
 
-Wazuh was used for centralized security monitoring.
+Wazuh was used as the security monitoring platform.
 
-The Ubuntu machine was enrolled as CodeAlpha agent and successfully connected to the Wazuh manager.
+The Ubuntu machine was successfully enrolled as 'CodeAlpha' agent and successfully connected to the Wazuh manager.
 
-The CodeAlpha agent was confirmed as Active in the Wazuh dashboard.
+The CodeAlpha agent was confirmed as **Active** in the Wazuh dashboard.
 
 ### Screenshot
 
