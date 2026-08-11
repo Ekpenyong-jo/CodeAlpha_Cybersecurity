@@ -1,4 +1,4 @@
-# Task 2: Phishing Awareness Traning
+# Task 2: Phishing Awareness Traning 
 
 ## Project Overview
 
