@@ -85,13 +85,13 @@ The logs contained flow, statistics, and alert events.
 
 Wazuh was used as the security monitoring platform.
 
-The Ubuntu machine was successfully enrolled as 'CodeAlpha' agent and successfully connected to the Wazuh manager.
+The Ubuntu machine was successfully enrolled as 'Vtcsec' agent and successfully connected to the Wazuh manager.
 
-The CodeAlpha agent was confirmed as **Active** in the Wazuh dashboard.
+The 'Vtcsec' agent was confirmed as **Active** in the Wazuh dashboard.
 
 ### Screenshot
 
-![Wazuh CodeAlpha Active](Screenshots/wazuh_codealpha_active.PNG)
+![Wazuh Agent Active](Screenshots/wazuh_vtcsec_active.PNG)
 
 
 6. Results
