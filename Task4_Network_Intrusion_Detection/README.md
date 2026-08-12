@@ -91,7 +91,7 @@ The 'Vtcsec' agent was confirmed as **Active** in the Wazuh dashboard.
 
 ### Screenshot
 
-![Wazuh Agent Active](Screenshots/wazuh_vtcsec_active.PNG)
+![Wazuh Agent Active](Screenshots/wazuh_vtcsec_active.png)
 
 
 6. Results
